@@ -24,7 +24,6 @@ jobs:
           
       # - name: DDDDOCR
        # run: |
-        # python3 -m pip install ddddocr
       - name: Clock In
         env:
           ACCOUNT: ${{ secrets.ACCOUNT }}
